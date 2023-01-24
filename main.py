@@ -12,3 +12,4 @@ def izmaksas_kopa(abolu_svars):
 
 aboli = 1.5
 print("Uz {} kg abolu izmaksas būs {} EUR".format(aboli, izmaksas_kopa(aboli)))
+#komentars
