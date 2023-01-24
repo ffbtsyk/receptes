@@ -11,5 +11,4 @@ def izmaksas_kopa(abolu_svars):
   return abolu_svars * izmaksas_kg
 
 aboli = 1.5
-print("Uz {} kg abolu izmaksas būs {} EUR".format(aboli, izmaksas_kopa(aboli)))
-#komentars
+print("Uz {} kg abolu izmaksas būs {} EUR".format(aboli, round(izmaksas_kopa(aboli),2)))
